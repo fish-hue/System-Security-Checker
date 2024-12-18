@@ -1,0 +1,16 @@
+{
+    "files_to_check": [
+        "/etc/passwd",
+        "/etc/shadow"
+    ],
+    "unwanted_services": [
+        "telnet",
+        "ftp",
+        "apache2",
+        "mysql"
+    ],
+    "default_credentials": {
+        "admin": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd51b33bfbaaf86aa3f",
+        "root": "63a9f0ea7bb98050796b649e85481845"
+    }
+}
